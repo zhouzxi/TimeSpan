@@ -44,7 +44,6 @@ void GetCompletePath(UINT8 *pszConfigFileName, UINT8 *pszWholePath);
 void GetStringContentValue(FILE *fp, UINT8 *pszSectionName, UINT8 *pszKeyName, UINT8 *pszOutput, UINT32 iOutputLen);
 void GetConfigFileStringValue(UINT8 *pszSectionName, UINT8 *pszKeyName, UINT8 *pDefaultVal, UINT8 *pszOutput, UINT32 iOutputLen, UINT8 *pszConfigFileName);
 INT32 IsRightStr(UINT8 *pszStr);
-INT32 main();
 
 
 /**********************************************************************
